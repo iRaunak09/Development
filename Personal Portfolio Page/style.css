@@ -1,0 +1,105 @@
+/* body {
+    background-image : url(./WhatsApp\ Image\ 2026-06-17\ at\ 22.37.23.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+body {
+    background-color:bisque;
+    margin: 0%;
+    padding: 0%;
+}
+
+.ProjectsName{
+    text-decoration : underline;
+}
+
+* {
+    font-family:'Courier New', Courier, monospace;
+    /* margin: 0%; */
+}
+
+.ProjectsName {
+    text-shadow: 5px 5px  5px rgb(92, 105, 120);
+}
+
+.ProjectsName:hover {
+    font-size: 20px;
+    background-color: cadetblue;
+    border: 10px solid black;
+}
+
+#navbar {
+    display : flex;
+    flex-direction : row;
+    /* justify-content : center; */
+    /* align-items : center; */
+    /* width : 50px; */
+    justify-content: space-between;
+    background-color:rgb(112, 114, 118);
+    border: 2px solid black;
+    /* text-decoration: none; */
+    /* flex-wrap: nowrap; */
+    position:fixed;
+    top:0%;
+    left:0%;
+    width:100%;
+    z-index:1000;
+}
+
+.NavE {
+    /* width: 50px; */
+    /* margin-right: 500px; */
+}
+
+a {
+    text-decoration: none;
+    color : black
+}
+
+.SkillsContainer {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* box-shadow: inset 20px 5px black; */
+
+    /* margin-right: 100px; */
+    /* margin: 50px */
+}
+
+/* #HTML {
+    flex-basis: 200px;
+}
+
+#CSS {
+    flex-basis: 200px;
+} */
+
+.Skills:hover {
+    background-color: cadetblue;
+    border: 10px solid black;
+}
+
+.Skills {
+    font-weight: bold;
+    border : 2px solid black;
+    /* padding: 35px; */
+    /* border : 2px solid black; */
+    border-radius: 35px;
+    text-align: center;
+    /* height:100px; */
+    /* padding-top: 0%;
+    padding-bottom: 10px; */
+    margin: 50px;
+    flex: 1 1 0;
+    box-shadow: 20px 5px 10px black;
+
+}
+
+
+
+.description {
+    font-weight: normal;
+}
+

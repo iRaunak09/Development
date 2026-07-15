@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body {
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container {
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px;
+    width: 200px; */
+    /* background-color: burlywood; */
+    gap: 10px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    transition: all;
+    transition-duration: 3s;
+}
+
+#box2 {
+    /* height: 100px;
+    width: 100px; */
+    background-color: rgb(117, 76, 105);
+}
+
+.box:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    /* transition: ; */
+}

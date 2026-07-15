@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1e1e1e;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    margin: 40px;
+    margin-left: 200px;
+}
+
+
+
+/* Sidebar */
+.sidebar {
+    background-color: #2a2a2a;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 90vh;
+    width: 80%;
+    color: white;
+    position: sticky;
+    /* position: fixed; */
+    top: 40px;
+}
+
+.Intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px;
+    gap: 12px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.imageContainer img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.myProfile {
+    display: inline;
+    background-color: #1a1a1a;
+    color: #ffbf00;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.contacts {
+    padding-left: 5px;
+    margin: 35px;
+    margin-top: 25px;
+    border-bottom: 2px solid black;
+}
+
+ .email {
+    padding-bottom: 15px;
+}
+
+.phone {
+    padding-bottom: 15px;
+}
+
+.location {
+    padding-bottom: 25px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 10px;
+}
+.links img {
+    height: 24px;
+    width: 24px;
+    padding-left: 10px;
+    filter: grayscale(1) invert(0.7);
+    transition: filter 0.3s ease;
+    
+}
+
+.links img:hover {
+    filter: grayscale(0) invert(0);
+}
+
+
+
+
+
+
+/* Main content  */
+.main-container {
+    background-color: #2a2a2a;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 30px;
+    color: #a0a0a0;
+}
+
+a {
+    text-decoration: none;
+    color: #a0a0a0;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding-left: 400px;
+    justify-content: space-between;
+    border-bottom: 2px solid #3a3a3a ;
+    /* color: #a0a0a0; */
+}
+
+.navItems {
+    transition: color 0.3s ease;
+}
+
+.navItems:hover {
+    color: #ffbf00
+}
+
+#about {
+    color: #ffbf00;
+}
+
+#aboutMe {
+    margin-top: 20px ;
+    margin-bottom: 25px;
+}
+
+.Heading {
+    display: inline-block;
+    color: white;
+}
+
+.underline {
+    height: 5px;
+    width: 40px;
+    background-color: #ffbf00;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.SkillsName {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.skill img{
+    height: 48px;
+    width: 48px;
+    padding: 20px;
+    filter: brightness(0) saturate(100%) invert(86%) sepia(32%) saturate(5966%) hue-rotate(359deg) brightness(104%) contrast(104%);
+    
+}
+
+.skill b {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.skill {
+    border: 2px solid #3a3a3a;
+    border-radius: 15px;
+    background-color: #1a1a1a;
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    /* transform: translateY(-10); */
+    transform: scale(1.06);
+    /* background-color: #ffbf00; */
+}
+
+.eduSummary {
+    /* margin-top: 20px ; */
+    /* margin-left: 0px; */
+    margin-bottom: 20px;
+    border-left: 2px solid #a0a0a0;
+}
+
+.eduFirst {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.eduSecond {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.circle {
+    /* background-color: #ffbf00; */
+    border: 2px solid #ffbf00;
+    height: 7px; ;
+    width: 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: -6.5px;
+    z-index: 5;
+}
+
+.year {
+    padding-bottom: 7px;
+}
+
+.degree {
+    padding-bottom: 7px;
+}
+
+.instituteName {
+    padding-bottom: 9px;
+}

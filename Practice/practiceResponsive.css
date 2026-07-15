@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    width: 1000px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    box-shadow: 20px 20px 5px black;
+
+}
+
+.item1 {
+    /* height: 400px;
+    width: 250px; */
+    /* flex-wrap: wrap; */
+    
+}
+
+.item2 {
+    background-color: cadetblue;
+}
+
+.item3 {
+    background-color: burlywood;
+}

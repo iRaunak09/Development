@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(109, 122, 111);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    display:grid;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(8,1fr);
+    background-color: rgb(112, 165, 161);
+    height: 800px;
+    width: 800px;
+
+
+   
+    /* height: 800px;
+    width: 800px;
+    text-align:center; */
+}
+
+.white {
+    background-color: rgb(172, 101, 166);
+}
+.black {
+    background-color:blanchedalmondq;
+}
