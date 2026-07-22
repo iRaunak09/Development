@@ -2,7 +2,11 @@ const favMovie = "3Idiots";
 
 let guess = prompt("Guess my favourite movie");
 
-while((guess != favMovie) && (guess != "quit")) {
+// while((guess != favMovie) && (guess != "quit")) {
+//     guess = prompt("Wrong answer!! Try again");
+// }
+
+while(!((guess == favMovie) || (guess == "quit"))) {
     guess = prompt("Wrong answer!! Try again");
 }
 
