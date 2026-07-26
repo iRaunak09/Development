@@ -24,12 +24,30 @@
 // console.log(isEven(n));
 
 
+// const object = {
+//     message:'Hello,World!',
+//     logMessage(){
+//         console.log(this.message);
+//         return this.logMessage;
+//     }
+// };
+// // console.log(object.logMessage());
+// setTimeout(object.logMessage(),1000);
+
+
+let length = 4;
+
+function callback() {
+    console.log(this.length);
+}
+
 const object = {
-    message:'Hello,World!',
-    logMessage(){
-        console.log(this.message);
-        return this.logMessage;
-    }
+    length: 5,
+
+    method(callback) {
+        // callback();
+        console.log(callback)
+    },
 };
-// console.log(object.logMessage());
-setTimeout(object.logMessage(),1000);
+
+object.method(callback, 1, 2);
