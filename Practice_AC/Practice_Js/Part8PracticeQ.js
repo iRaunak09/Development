@@ -15,12 +15,13 @@
 let arr = [1,2,3,-4,5,6,-1,-1.5];
 // let min = checkMin(arr);
 // console.log(min);
+// console.log(Math.min(arr));
 
 
-const min = arr.reduce((acc, el) => {
-    if(acc < el){
-        return acc;
-    }
-    return el;
-})
-console.log(min);
+// const min = arr.reduce((acc, el) => {
+//     if(acc < el){
+//         return acc;
+//     }
+//     return el;
+// })
+// console.log(min);
