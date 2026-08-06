@@ -6,28 +6,40 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
+    <table border="black">
         <caption>Food Menu</caption>
 
-        <tr>
-            <th>Food</th>
-            <th>Price</th>
+       <thead>
+         <tr>
+            <th rowspan="2">Item</th>
+            <th colspan="2">Price</th>
         </tr>
 
         <tr>
+            <th>INR</th>
+            <th>USD</th>
+        </tr>
+       </thead>
+
+        <tbody>
+            <tr>
             <td>Burger</td>
+            <td>70</td>
             <td>$7</td>
         </tr>
 
         <tr>
             <td>Pizza</td>
+            <td>400</td>
             <td>$11</td>
         </tr>
 
         <tr>
-            <td>Burger</td>
-            <td>$7</td>
+            <td>Sandwitch</td>
+            <td>60</td>
+            <td>$6</td>
         </tr>
+        </tbody>
     </table>
 </body>
 </html>
