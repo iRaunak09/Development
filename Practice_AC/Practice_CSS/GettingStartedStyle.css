@@ -1,0 +1,35 @@
+p {
+    /* color: #964B00; */
+    color: red;
+    line-height: 30px;
+}
+
+h1,h3,h4,p {
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline double;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+button {
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea {
+    color: blue;
+}
+
+textarea::placeholder {
+    color:brown;
+}
