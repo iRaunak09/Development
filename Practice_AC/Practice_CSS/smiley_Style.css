@@ -1,0 +1,51 @@
+/* .container {
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+    border: 5px solid black;
+} */
+
+.face {
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    /* position: relative; */
+}
+
+.eye {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: inline-block;
+    /* margin-right: 120px; */
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+
+.smile {
+    height: 75px;
+    width: 200px;
+    background-color: brown;
+    position: absolute;
+    top: 250px ;
+    left: 100px;
+
+    /* border-bottom: 10px;
+    border-left: 10px;
+    border-right: 10px; */
+
+    border-radius: 0 0 50px 50px;
+}
+
+#leftEye {
+    left: 250px;
+}
+
+/* .class {
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+} */
