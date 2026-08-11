@@ -1,0 +1,30 @@
+.container {
+    border: 2px solid black;
+    height: 200px;
+    width: 70px;
+    /* text-align: center; */
+    /* padding-top: 5px;
+    padding-left: 10px; */
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 10px;
+    /* padding-top: 15px;
+    padding-left: 10px; */
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
