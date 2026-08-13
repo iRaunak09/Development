@@ -28,8 +28,15 @@ newBtn.addEventListener("click", () => {
 
 let h2 = document.querySelector("h2");
 let name = document.querySelector("#name");
+let lastValid = "";
 name.addEventListener("input", function(){
-    if(name.validity.patternMismatch == false){
-        h2.innerText = name.value;
+   for(let i = 0; i < name.value.length; i++){
+        if(name.value[i].validity.patternMismatch){
+        h2.innerText = lastValid;
+        }else {
+        lastValid = lastValid.append(name.value[i]);
+        h2.innerText = lastValid;
+        }
     }
 });
+
