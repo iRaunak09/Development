@@ -90,6 +90,15 @@ function newElement(obj){
         });
         task.completed = true;
         console.log(task);
+        displayTodo(todoList);
     });
 }
+
+function displayTodo(todoList){
+    
+}
+
+// function checkCompleted(task){
+    
+// }
 
