@@ -14,6 +14,18 @@
 
 
 // ----------------
-let info = require("./Fruits");
-console.log(info);
+// let info = require("./Fruits");
+// console.log(info);
+
+
+const figlet = require('figlet');
+
+figlet("Hello", function (err, data) {
+  if (err) {
+    console.log("Something went wrong...");
+    console.dir(err);
+    return;
+  }
+  console.log(data);
+});
 
