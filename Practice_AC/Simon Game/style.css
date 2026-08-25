@@ -28,19 +28,27 @@ body {
     border-radius: 25px;
 }
 
-#item1 {
+.pink {
     background-color: pink;
 }
 
-#item2 {
+.cadetblue {
     background-color: cadetblue;
 }
 
-#item3 {
+.orange {
     background-color: orange;
 }
 
-#item4 {
+.violet {
     background-color: rgb(145, 145, 223);
+}
+
+.gameFlash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: brown;
 }
 
