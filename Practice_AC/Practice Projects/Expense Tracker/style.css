@@ -3,6 +3,8 @@
     padding: 0px;
 }
 body {
+    color: white;
+    background-color: black;
     display: flex;
     flex-direction: column;
     gap: 20px;
