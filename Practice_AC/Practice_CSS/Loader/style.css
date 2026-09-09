@@ -6,7 +6,7 @@
     border-top: 16px solid goldenrod;
     /* border-bottom: 16px solid brown; */
 
-    animation: spin 1s linear infinite;
+    /* animation: spin 1s linear infinite; */
 }
 
 @keyframes spin {
